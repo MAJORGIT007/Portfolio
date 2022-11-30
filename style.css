@@ -140,6 +140,15 @@ body {
   transform: scale(1.02);
 }
 
+.project-title {
+    text-transform: uppercase;
+}
+
+.project-stack {
+    list-style: none;
+    padding: 0;
+}
+
 .project-link {
   display: block;
   text-decoration: none;
@@ -238,6 +247,7 @@ body {
 .aboutMe-link {
   color: #414cfa;
   font-weight: bold;
+  text-decoration: none;
 }
 
 @media (max-width: 440px) {
@@ -274,11 +284,28 @@ body {
 .footer-links {
   display: flex;
   gap: 1.5em;
+  align-items: center;
 }
 
 .footer-link {
   color: #ffffff;
   font-size: 2.25rem;
+}
+
+.resume-link {
+    display: flex;
+    font-size: .75rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: #11006c;
+    background-color: #ffffff;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
 }
 
 .footer-note {
