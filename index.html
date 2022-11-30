@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jun's Portfolio Website</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" href="#portfolio-section">Portfolio</a>
+      <a class="nav-link" href="#aboutMe">About</a>
+    </nav>
+
+    <div class="hero-section">
+      <div class="hero-content">
+        <h1 class="hero-title">HI THERE! MY NAME IS JUN</h1>
+        <h3 class="hero-description">
+          I am a Front-end Web Developer located in Singapore and I have an
+          interest in UI Design.
+        </h3>
+      </div>
+    </div>
+
+    <div class="portfolio-section" id="portfolio-section">
+      <h1 class="portfolio-section-title">My portfolio</h1>
+      <div class="portfolio-container">
+        <div class="project projectOne">
+          <img class="project-image" src="./images/dentalseaSS.png" />
+          <div class="project-information">
+            <h1 class="project-title">Final Year Project</h1>
+            <p class="project-description">
+              Marketing Website for my university final year group project.
+            </p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a
+              class="project-link"
+              href="https://finalyearprojectmarketingwebsite.netlify.app/"
+              target="_blank"
+              >Visit<i class="fa-solid fa-circle-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project projectTwo">
+          <img class="project-image" src="./images/tenziesSS.png" />
+          <div class="project-information">
+            <h1 class="project-title">Tenzies App</h1>
+            <p class="project-description">
+              Created part of a React Course and added a roll tracker.
+            </p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+            <a
+              class="project-link"
+              href="https://reacttenziesapp.netlify.app/"
+              target="_blank"
+              >Visit<i class="fa-solid fa-circle-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project projectThree">
+          <img class="project-image" src="./images/memeGeneratorSS.png" />
+          <div class="project-information">
+            <h1 class="project-title">Meme Generator App</h1>
+            <p class="project-description">Created part of a React Course.</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+            <a
+              class="project-link"
+              href="https://react-meme-generator-app.netlify.app/"
+              target="_blank"
+              >Visit<i class="fa-solid fa-circle-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="aboutMe-section" id="aboutMe">
+      <h1 class="aboutMe-title">About Me</h1>
+      <div class="aboutMe-container">
+        <img
+          class="self-portrait-image"
+          src="./images/forPortfolioAboutMe.jpg"
+        />
+        <div>
+          <p class="aboutMe-description">
+            My name is Lee Jun Kuan and I specialize in Front-end Web
+            Development using <strong>HTML</strong>, <strong>CSS</strong>,
+            <strong>JavaScript</strong> (ES6) and <strong>React</strong>. I am
+            currently undergoing a UX Design Bootcamp and my own self studies on
+            Front-end Web Development!
+          </p>
+          <p class="aboutMe-description">
+            Thank you for looking through my portfolio website and if you wish
+            to connect, you may do so via
+            <a
+              class="aboutMe-link"
+              href="https://www.linkedin.com/in/jun-kuan-lee-8716691aa/"
+              target="_blank"
+              >LinkedIn</a
+            >.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-section">
+      <div class="footer-links">
+        <a
+          href="https://www.linkedin.com/in/jun-kuan-lee-8716691aa/"
+          target="_blank"
+          class="footer-link"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/MAJORGIT007"
+          target="_blank"
+          class="footer-link"
+          ><i class="fa-brands fa-square-github"></i
+        ></a>
+      </div>
+      <p class="footer-note">© 2022. Created by Jun.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
